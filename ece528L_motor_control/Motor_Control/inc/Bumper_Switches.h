@@ -57,7 +57,7 @@
 void (*Bumper_Task)(uint8_t bumper_switch_state);
 
 /**
- * @brief
+ * @brief Setup for Bumper Switches registers.
  *
  * @param task A pointer to the user-defined function that will be called on a falling edge event.
  *
