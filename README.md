@@ -27,20 +27,30 @@ Build C project and develop functions for PWM design and DC motor control. An in
 
 
 ## Analysis and Results
-Servo 0 degrees Pulse Width
+**Servo 0 degrees Pulse Width**
+
 ![Servo 0 degrees Pulse Width](/screenshots/ece528L_lab1_servo_0_degrees_pulse_width.png)
 
-Servo 180 degrees Group
+
+**Servo 180 degrees Group**
+
 ![Servo 180 degrees Group](/screenshots/ece528L_lab1_servo_180_degrees_group.png)
 
-Servo 180 degrees Pulse Width
+
+**Servo 180 degrees Pulse Width**
+
 ![Servo 180 degrees Pulse Width](/screenshots/ece528L_lab1_servo_180_degrees_pulse_width.png)
 
-Bumper Terminal Output
+
+**Bumper Terminal Output**
+
 ![Bumper Terminal Output](/screenshots/ece528L_lab1_bumper_terminal_output.png)
 
-Bumper Scope Shot
+
+**Bumper Scope Shot**
+
 ![Bumper Scope Shot](/screenshots/ece528L_lab1_bumper_scope_shot.png)
+
 
 
 ## Known Issues or Limitations
