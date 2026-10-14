@@ -41,7 +41,7 @@ void Timer_A0_Interrupt_Init(void(*task)(void), uint16_t period)
 
     // Set interrupt priority level to 2 using the IPR2 register of NVIC
     // Timer A0 has an IRQ number of 8
-    NVIC->IP[2] = (NVIC->IP[2] & 0xFFFFF00F) | 0x00000060;
+    NVIC->IP[2] = (NVIC->IP[2] & 0xFFFFFF00) | 0x00000040;
 
     // Enable Interrupt 8 in NVIC by setting Bit 8 of the ISER register
     NVIC->ISER[0] |= 0x00000100;
